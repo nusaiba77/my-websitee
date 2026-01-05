@@ -3,28 +3,25 @@ body {
 }
 
 body {
-    /* الخلفية الزرقاء الفاتحة كما هي */
     background-color: #e0f7fa; 
     margin: 0;
     font-family: 'Arial', sans-serif;
-    /* لإظهار العنوان في المنتصف العلوي بدلاً من المنتصف الشامل */
-    /* نستخدم text-align لتوسيط النص داخل الـ body */
+
     text-align: center; 
 }
 
-/* 2. تنسيق العنوان (H1) ليكون كبيراً وبتأثير 3D */
 h1 {
-    font-size: 3.5em; /* خط كبير جداً */
-    color: #007bb6; /* لون أزرق داكن للنص */
-    margin-top: 50px; /* إضافة مسافة من أعلى الصفحة */
-    margin-bottom: 40px; /* مسافة بين العنوان والعناصر التالية */
-    text-align: center; /* التأكيد على توسيط العنوان */
-    
-    /* تأثير الظل لإعطاء شكل 3D (3D Text Effect) */
+    font-size: 3.5em;
+    color: #007bb6; 
+    margin-top: 50px;
+    margin-bottom: 40px; 
+    text-align: center;
+
     text-shadow: 
-        1px 1px 0 #005688, /* الظل الأول */
+        1px 1px 0 #005688, 
         2px 2px 0 #005688,
         3px 3px 0 #005688,
         4px 4px 0 #005688,
-        5px 5px 10px rgba(0, 0, 0, 0.5); /* ظل لتحديد الشكل النهائي */
+        5px 5px 10px rgba(0, 0, 0, 0.5);
+
 }
